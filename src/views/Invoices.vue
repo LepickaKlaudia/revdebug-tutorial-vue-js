@@ -71,8 +71,7 @@
 </template>
 
 <script>
-import ErrorHandlerService from '../services/ErrorHandlerService'; // Zaktualizuj ścieżkę w zależności od lokalizacji pliku
-
+import ErrorHandlerService from '../services/ErrorHandlerService';
 
 export default {
   name: 'InvoicesView',
@@ -131,7 +130,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-/* Dodaj dodatkowe style tutaj, jeśli potrzebujesz */
-</style>

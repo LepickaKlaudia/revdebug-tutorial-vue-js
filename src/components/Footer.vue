@@ -13,6 +13,6 @@
 
 <script>
 export default {
-  name: 'AppFooter' // Zmieniono nazwę komponentu
+  name: 'AppFooter'
 };
 </script>

@@ -1,24 +1,22 @@
 <template>
   <div id="app">
-    <AppHeader /> <!-- Poprawiona nazwa komponentu -->
+    <AppHeader /> 
     <div class="container content">
       <router-view></router-view>
     </div>
-    <AppFooter /> <!-- Poprawiona nazwa komponentu -->
+    <AppFooter /> 
   </div>
 </template>
 
 <script>
-import AppHeader from './components/Header.vue'; // Import poprawionego komponentu
-import AppFooter from './components/Footer.vue'; // Import poprawionego komponentu
+import AppHeader from './components/Header.vue';
+import AppFooter from './components/Footer.vue'; 
 
 export default {
   name: 'App',
   components: {
-    AppHeader, // Upewnij się, że komponent jest używany
-    AppFooter  // Upewnij się, że komponent jest używany
+    AppHeader, 
+    AppFooter  
   }
 }
 </script>
-
-<style src="./assets/App.css"></style>
