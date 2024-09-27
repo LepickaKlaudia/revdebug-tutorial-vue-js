@@ -2,9 +2,9 @@ class ErrorHandlerService {
     handleError(error) {
         console.error('An error occurred:', error);
 
-        // if (typeof revdebug !== 'undefined') {
-        //     revdebug.exception(error);
-        // }
+        if (typeof revdebug !== 'undefined') {
+            revdebug.exception(error);
+        }
     }
 }
 
