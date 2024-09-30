@@ -1,5 +1,5 @@
 {
-    "host": "testlmzeas.zapto.org",
+    "host": "revdebug.server.address",
     "port": "42734",
     "secure": true,
     "apm": true,
